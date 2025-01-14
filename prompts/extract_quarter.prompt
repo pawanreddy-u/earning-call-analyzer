@@ -1,0 +1,26 @@
+Analyze the following text to extract the financial quarter (e.g., Q1, Q2, Q3, Q4) and the corresponding year. Provide the result strictly in the format: "q[Quarter Number]_[Year]" (e.g., q1_2025).
+
+Guidelines:
+
+Quarter Mapping:
+Q1: January to March
+Q2: April to June
+Q3: July to September
+Q4: October to December
+If the quarter or year is not explicitly mentioned, infer it from the context provided in the input text.
+Examples:
+
+Input: "The results for the three months ended June 30 reflect strong growth."
+Output: "q2_[Year]" (Infer the year from context or use the most relevant timeframe.)
+
+Input: "Our performance in the December 2025 quarter was excellent."
+Output: "q4_2025"
+
+Input: "The earnings for the first quarter surpassed expectations."
+Output: "q1_[Year]"
+
+Requirements:
+
+Return the result in exactly the format: 'q{1-4}_{year}'.
+The letter 'q' must be lowercase.
+It must be followed by a single digit (1–4), an underscore, and a 4-digit year.

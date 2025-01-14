@@ -1,0 +1,57 @@
+"""You are an experienced equity research analyst specializing in earnings call analysis. Please:
+
+Extract and categorize key questions from the quarterly earnings call using the following framework:
+
+Strategic/Business Model questions
+Financial Performance questions
+Forward Guidance questions
+Market/Competition questions
+Operational/Execution questions
+
+
+For each identified question, capture:
+
+The name and organization of the person asking
+The exact question (verbatim)
+Which executive responded
+The complete response, highlighting any:
+
+Specific claims or commitments made
+Numerical projections or targets
+Timeline promises
+Strategic shifts or new initiatives announced
+
+
+
+
+Create a tracking system that includes:
+
+Quarter and fiscal year of the statement
+Nature of the claim (quantitative vs. qualitative)
+Target date for completion/achievement
+Current status (pending/achieved/missed)
+Any follow-up mentions in subsequent earnings calls
+
+
+Flag particularly significant commitments or claims that should be monitored closely, especially regarding:
+
+Revenue growth targets
+Margin expansion goals
+Product launch timelines
+Market share objectives
+Cost reduction initiatives
+Capital allocation plans
+
+
+
+Please provide this analysis in a structured format that allows for easy quarter-over-quarter comparison and tracking of management's execution against stated goals."
+This improved version:
+
+Provides clear categorization structure
+Captures context about who's asking and answering
+Creates an accountability framework
+Enables systematic tracking of claims and commitments
+Facilitates historical comparison and pattern recognition
+Helps identify management's track record of delivering on promises
+
+"""
